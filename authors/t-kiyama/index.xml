@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>t-kiyama on OZVISION Tech Blog</title><link>http://techblog.oz-vision.co.jp/authors/t-kiyama/</link><description>Recent content in t-kiyama on OZVISION Tech Blog</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>© OZVISION Inc.</copyright><lastBuildDate>Fri, 15 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://techblog.oz-vision.co.jp/authors/t-kiyama/index.xml" rel="self" type="application/rss+xml"/><item><title>SymfonyによるN+1の速度比較をやってみた！</title><link>http://techblog.oz-vision.co.jp/blog/symfony-n1/</link><pubDate>Fri, 15 Sep 2023 00:00:00 +0000</pubDate><guid>http://techblog.oz-vision.co.jp/blog/symfony-n1/</guid><description>はじめに こんにちは！
+オズビジョン開発ユニット（ハピタス）の木山です。
+今回はWebの開発をする上でよく耳にするN+1問題についてSymfonyとMySQLの環境で検証をしてみようと思います！
+N+1問題とは？ まずはじめにN+1問題について簡単におさらいしておきます。
+前提として、データベースにUsersテーブルとCommentsテーブルが存在している簡単なSNSアプリケーションを考えてみます。
+ここで、全ユーザーの全コメントを表示する機能を実装したいです。
+その際、UsersテーブルからUserの一覧を取得し、各ユーザーのIDを用いてCommentsテーブルのユーザーに紐づくデータも取得します。
+この際、発行されるクエリに着目をすると、
+// UsersテーブルからUserのid一覧を取得 select id from Users; // Commentsテーブルから特定UserのCommentを取得 （これをUserの人数分繰り返す） select * from Comments where user_id = ?; 上記のようなクエリになります。
+例えばユーザーが10人いると、以下のようなイメージです。</description></item><item><title>AWS New Gradsの体験共有と所感について</title><link>http://techblog.oz-vision.co.jp/blog/aws-new-grads/</link><pubDate>Wed, 12 Jul 2023 15:04:05 +0000</pubDate><guid>http://techblog.oz-vision.co.jp/blog/aws-new-grads/</guid><description>こんにちは！
+オズビジョン開発ユニットの木山です。
+先月初めてAWS New Gradsという初学者向けの研修に参加しました。
+それはとても素晴らしい経験だったので、今日はこのブログでその経験をシェアしたいと思います。
+AWS New Gradsとは？ まず始めに、「AWS New Gradsって何？」と思っている方もいるかもしれませんね。
+AWS New Gradsは、基本的に新卒1年目の方を対象にしたAWS公式の研修プログラムです。
+私が参加したのは &amp;ldquo;AWS JumpStart 2023 for NewGrads 設計編&amp;quot;というセッションでした。
+公式の情報によると、
+&amp;ldquo;クラウドの入り口となるパートナー限定セミナーです。新入社員に特化したトレーニング「AWS New Grads Training」そして、新入社員以外の皆様向けトレーニング「はじめてのクラウド」を開催しています。「クラウドとは？」といった内容からAWSの学び方までお伝えします。IT初心者にも伝わる構成となっており、AWSを学ぶ最初の一歩として広くご利用いただけるセミナーです。&amp;rdquo;
+AWS 初学者向け AWS パートナーのラーニングパスご紹介</description></item><item><title>転職後2ヶ月の軌跡と、そのエンジニアからみたオズビジョンの良い所！</title><link>http://techblog.oz-vision.co.jp/blog/good-point-from-new-employee/</link><pubDate>Mon, 01 May 2023 00:00:00 +0000</pubDate><guid>http://techblog.oz-vision.co.jp/blog/good-point-from-new-employee/</guid><description>自己紹介 オズビジョン開発ユニットの木山です。
+2019年4月に新卒で写真販売サービスの会社へ入社後、WEBサービスのフロント・バックエンドの開発に3年ほど携わり、2023年2月1日にオズビジョンに入社しました！
+カメラや将棋が好きで、休みの日は街中をふらふらして風景を取ったりしています！
+はじめに 自己紹介にもある通り、私はオズビジョンにJOINしてからまだ日が浅く、この2ヶ月でやったことを書くなら今しかない！
+ということで、ブログに書かせていただけることになりました！
+私が入社してからやったこと、感じたことをベースにこの2ヶ月についてお話して、その後に私からみたオズビジョンの良い所を4つお伝えしたいと思います。
+&amp;ldquo;入社後ってどんなことするんだろう&amp;hellip;？&amp;rdquo;
+&amp;ldquo;オズビジョンの開発って今こんな雰囲気なんだ&amp;hellip;！&amp;rdquo;
+というのが伝わればと思います！
+転職先としてオズビジョンを選んだ理由は？ 入社後のお話をする前に、入社前のお話も少しだけ&amp;hellip;。
+はじめにある通り、新卒から3年間ほどお世話になった会社から、転職したわけなんですが、その理由と何故オズビジョンを選んだのか？についてお話しします。
+前職でのお話になりますが、新規のサービスの発足直後にその開発チームにジョインし、私とプレイングマネージャーの方、そして営業の方の3人体制でアジャイル開発を行ったことがあります。
+私とプレイングマネージャーとのコミュニケーションはもちろん、営業の方とも密に接し、とにかく困ったり悩んだり、提案したいことがあればbiz, dev関係なく言いたいことを言い合える関係性ができていました。
+biz側の指標対して開発も意見をし、要件定義を進める際も、チーム一丸となってサービスを良くしよう！という感じが心地よかったのを覚えています。
+しかし、組織改変やチーム変え等もあり、bizとのやりとりをするときは大きめのMTGか、あるいは上司経由で他部署の方とやりとりをする&amp;hellip;といった形に変わりました。
+その頃から、もうちょっと裁量を持ってあのチームの時のようなお仕事ができたら&amp;hellip;！と思うようになったのがきっかけでした。
+そこで、オズビジョンの採用面談では当時ような働き方ができるだろうか・・・？という点を中心に検討しました。
+決め手としては、オズビジョンでは普段から悩んだらすぐにSlackやGoogleMeetなどで相談をする文化になっていて、中規模の案件になってくると、必要な部署から数名ずつでチームを組んでの開発もある&amp;hellip;という所でした！
+他にもたくさんありますが、前述の通り自分の理想の働き方ができそうだったため、オズビジョンへの転職を決意しました。
+では、次節からは実際に入社してどんなことをやったのか？をお伝えしていきます！
+入社後2ヶ月の軌跡 それでは、入社初日からやったことをご紹介します&amp;hellip;！
+あくまで、私の入社当時の内容となっていますので、その点はご留意いただければと思います！
+入社初日 忘れもしない入社初日！</description></item></channel></rss>

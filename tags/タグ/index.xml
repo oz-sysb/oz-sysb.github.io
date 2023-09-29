@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>タグ on OZVISION Tech Blog</title><link>http://techblog.oz-vision.co.jp/tags/%E3%82%BF%E3%82%B0/</link><description>Recent content in タグ on OZVISION Tech Blog</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>© OZVISION Inc.</copyright><lastBuildDate>Tue, 19 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://techblog.oz-vision.co.jp/tags/%E3%82%BF%E3%82%B0/index.xml" rel="self" type="application/rss+xml"/><item><title>timesチャンネルを活用したコミュニケーション</title><link>http://techblog.oz-vision.co.jp/blog/times-ch-slack/</link><pubDate>Tue, 19 Sep 2023 00:00:00 +0000</pubDate><guid>http://techblog.oz-vision.co.jp/blog/times-ch-slack/</guid><description>こんにちは！
+オズビジョン開発ユニット（ハピタス）の天野です。
+この記事では、Slack内での「timesチャンネルを活用したコミュニケーション」について紹介します。
+timesチャンネルとは何か timesチャンネルは、いわゆる「分報」を共有する場所です。オズビジョンのエンジニアたちは、プロジェクト進行中に気づいたこと、学んだこと、また業務には関係しないが共有したいことなど、自由に情報を発信できます。
+開発ユニット（ハピタス）のほぼ半数のエンジニアが自分専用のチャンネルを所有しており、それぞれのチャンネル名は「times-」から始まることで、そのチャンネルがtimesチャンネルであることが明確に示されています。
+timesチャンネルの活用例 以下に、実際にtimesチャンネルで活用されている例を紹介します。
+簡単な進捗共有 疑問をつぶやく 休憩のお知らせ 特に休憩連絡をするルールはありませんが、個人の気分で「きゅうけいっ」スタンプをtimesチャンネルに投稿することがあります。
+トッポ食べたい ランチのメンバーを募集 急遽募集した結果、4人集まりました笑
+使ってみたら便利だったツールを共有 timesチャンネルを導入して感じたメリット 質問のハードルが下がった 業務中に疑問が生じた場合、timesチャンネルで簡単に質問できるため、知識豊富なメンバーから迅速な回答を受けることができます。特に、新入社員や特定のドメインに精通していないメンバーにとって、timesチャンネルは知識の補完として非常に役立っています。
+知識の共有が促進される 業務中に得た新しい知識や情報をtimesチャンネルにメモすることで、他のメンバーもそれを共有できます。また、このメモはSlackの検索機能で見つけやすいため、将来的に同じ問題にぶつかったときに役立つことがあります。
+業務以外の話題で盛り上がれる timesチャンネルの使い方は個人の自由であり、メンバーは休日の旅行写真やランチの内容など、業務以外のトピックについても自由に投稿します。こうした楽しい話題を通じて、チームメンバー同士の関係性が深まったり、「人となり」を知れたりします。
+業務以外の話題を共有できるtimesチャンネルは、コミュニケーションの促進と楽しい雰囲気作りにもつながっています。
+感想 2023年9月現在、弊社では週に2日の出社が原則となっています。このため、リモートワーク中のメンバーとのコミュニケーションも重要です。timesチャンネルは、テキストベースのコミュニケーションを円滑にし、リモート環境でのコミュニケーションに役立っています。
+最後までお読みいただき、ありがとうございました。</description></item></channel></rss>

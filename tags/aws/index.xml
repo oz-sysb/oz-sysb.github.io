@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>AWS on OZVISION Tech Blog</title><link>http://techblog.oz-vision.co.jp/tags/aws/</link><description>Recent content in AWS on OZVISION Tech Blog</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>© OZVISION Inc.</copyright><lastBuildDate>Fri, 29 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://techblog.oz-vision.co.jp/tags/aws/index.xml" rel="self" type="application/rss+xml"/><item><title>CDK v2 の導入でハピタスのインフラが進化！</title><link>http://techblog.oz-vision.co.jp/blog/migration-infra-to-cdkv2/</link><pubDate>Fri, 29 Sep 2023 00:00:00 +0000</pubDate><guid>http://techblog.oz-vision.co.jp/blog/migration-infra-to-cdkv2/</guid><description>こんにちは、開発ユニット(SRE) の卜部です。
+ハピタスの基盤にはAmazon Web Services（以下AWSと記載）を使用しています。その基盤の運用にはAWS Cloud Development Kit（以下CDKと記載）を2023年1月から導入しました。今回は、CDK v2を使用している経験を共有し、どれだけ運用が向上したかについてお話しします。
+メリット TypeScriptとCDKの組み合わせを活用することで、プログラムの記述がスムーズに行え、VSCodeなどのエディタで補完機能が利用でき、関数の説明などが即座に確認できます。 単体テストが容易に実行でき、デグレーションのリスクが低減します。 既存のデプロイ済みリソースとの差分を手元で確認できるため、運用中のトラブルシューティングが効率的に行えます。 リソース間の依存関係や呼び出し関係を視覚的に理解しやすくなりました。 導入前の課題 導入前、手動でAWSコンソール上にリソースを作成する作業と、 CloudFormationテンプレートを使用してリソースの作成、更新、削除を行う作業が混在していました。
+また、リソースの命名規則が統一されておらず、リソースの用途が明確でない状態でした。
+これにより、どのリソースがどのような目的で構築されたのかを理解することが難しく、調査と運用に余計な時間がかかっていました。
+導入のタイミングで行ったこと 言語の選定 フロントエンドでReact + TypeScriptを使用していたため、静的型付け言語であり、エディタの補完機能が優れているTypeScriptを採用しました。 導入計画の策定 新しいリソースの作成にはCDKを使用し、既存のリソースのバージョンアップや変更時にCDKに移行する方針を採用しました。AWS Summit、AWS Dev Dayなどの外部イベントに参加し、AWSのソリューションアーキテクトからの意見も取り入れ、CDKの導入にメリットしか感じなかったため、他の選択肢を検討しなかったのです。 TypeScript + CDKの組み合わせ TypeScriptはフロントエンドやサーバーサイドのエンジニアにとっても馴染み深い言語であり、 リソースの状態を共有するのに適しています。</description></item><item><title>AWS New Gradsの体験共有と所感について</title><link>http://techblog.oz-vision.co.jp/blog/aws-new-grads/</link><pubDate>Wed, 12 Jul 2023 15:04:05 +0000</pubDate><guid>http://techblog.oz-vision.co.jp/blog/aws-new-grads/</guid><description>こんにちは！
+オズビジョン開発ユニットの木山です。
+先月初めてAWS New Gradsという初学者向けの研修に参加しました。
+それはとても素晴らしい経験だったので、今日はこのブログでその経験をシェアしたいと思います。
+AWS New Gradsとは？ まず始めに、「AWS New Gradsって何？」と思っている方もいるかもしれませんね。
+AWS New Gradsは、基本的に新卒1年目の方を対象にしたAWS公式の研修プログラムです。
+私が参加したのは &amp;ldquo;AWS JumpStart 2023 for NewGrads 設計編&amp;quot;というセッションでした。
+公式の情報によると、
+&amp;ldquo;クラウドの入り口となるパートナー限定セミナーです。新入社員に特化したトレーニング「AWS New Grads Training」そして、新入社員以外の皆様向けトレーニング「はじめてのクラウド」を開催しています。「クラウドとは？」といった内容からAWSの学び方までお伝えします。IT初心者にも伝わる構成となっており、AWSを学ぶ最初の一歩として広くご利用いただけるセミナーです。&amp;rdquo;
+AWS 初学者向け AWS パートナーのラーニングパスご紹介</description></item></channel></rss>

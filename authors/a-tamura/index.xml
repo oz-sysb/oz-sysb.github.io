@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>a-tamura on OZVISION Tech Blog</title><link>http://techblog.oz-vision.co.jp/authors/a-tamura/</link><description>Recent content in a-tamura on OZVISION Tech Blog</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>© OZVISION Inc.</copyright><lastBuildDate>Thu, 16 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://techblog.oz-vision.co.jp/authors/a-tamura/index.xml" rel="self" type="application/rss+xml"/><item><title>テックブログの技術スタック</title><link>http://techblog.oz-vision.co.jp/blog/blog-tech-stack/</link><pubDate>Thu, 16 Mar 2023 00:00:00 +0000</pubDate><guid>http://techblog.oz-vision.co.jp/blog/blog-tech-stack/</guid><description>開発ユニット(SRE) の田村です。
+今回は、本テックブログの技術スタックについてご紹介いたします。
+テックブログの構成図 GitHub Pages は一つのリポジトリに紐づいた、**.github.io のドメインに、リポジトリ内部のファイルを公開する仕様を持ちます。
+GitHub Actions を利用してソースリポジトリと公開リポジトリを連携しております（上図）
+構成の説明とセットアップフロー テックブログのソースリポジトリを用意する (ex. owner/tech-blog) GitHub Pages の公開リポジトリを用意する (ex. owner/owner.github.io) GitHub Actions を用いて、ソースリポジトリからビルドしたファイルを、公開リポジトリに push する (main マージをトリガーとする) GitHub Pages により **.</description></item><item><title>テックブログを開始しました！</title><link>http://techblog.oz-vision.co.jp/blog/first-post/</link><pubDate>Fri, 10 Mar 2023 00:00:00 +0000</pubDate><guid>http://techblog.oz-vision.co.jp/blog/first-post/</guid><description>初めまして。開発ユニット(SRE) の田村です。
+オズビジョンは、ポイントモール「 ハピタス」や、買取サービス「 ポレット」を中心に、お買い物やお出かけをもっと楽しくするサービスを運営しています。
+ポイ活でお馴染みのポイントサイト「ハピタス」 フリマより楽な買取サービス「ポレット」 弊社はサービス運営歴がそれなりに長く、これまでにいくつかの技術的なチャレンジや、新たな取り組みを経験してきました。
+私たちの経験や取り組みを、社外向けに情報発信する場として、テックブログを運営していきたいと思います。
+いまのところ以下のような内容で発信を進めていこうと考えています。
+取り入れている技術 開発メンバーの紹介 技術的なチャレンジや取り組み その他、 組織やチームのあり方について このブログを通じて、オズビジョン開発部のことを、みなさまにお届けできればと思います。
+是非ともブログをチェックしてください！</description></item></channel></rss>

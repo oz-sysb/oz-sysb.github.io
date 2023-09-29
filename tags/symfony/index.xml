@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Symfony on OZVISION Tech Blog</title><link>http://techblog.oz-vision.co.jp/tags/symfony/</link><description>Recent content in Symfony on OZVISION Tech Blog</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>© OZVISION Inc.</copyright><lastBuildDate>Fri, 15 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://techblog.oz-vision.co.jp/tags/symfony/index.xml" rel="self" type="application/rss+xml"/><item><title>SymfonyによるN+1の速度比較をやってみた！</title><link>http://techblog.oz-vision.co.jp/blog/symfony-n1/</link><pubDate>Fri, 15 Sep 2023 00:00:00 +0000</pubDate><guid>http://techblog.oz-vision.co.jp/blog/symfony-n1/</guid><description>はじめに こんにちは！
+オズビジョン開発ユニット（ハピタス）の木山です。
+今回はWebの開発をする上でよく耳にするN+1問題についてSymfonyとMySQLの環境で検証をしてみようと思います！
+N+1問題とは？ まずはじめにN+1問題について簡単におさらいしておきます。
+前提として、データベースにUsersテーブルとCommentsテーブルが存在している簡単なSNSアプリケーションを考えてみます。
+ここで、全ユーザーの全コメントを表示する機能を実装したいです。
+その際、UsersテーブルからUserの一覧を取得し、各ユーザーのIDを用いてCommentsテーブルのユーザーに紐づくデータも取得します。
+この際、発行されるクエリに着目をすると、
+// UsersテーブルからUserのid一覧を取得 select id from Users; // Commentsテーブルから特定UserのCommentを取得 （これをUserの人数分繰り返す） select * from Comments where user_id = ?; 上記のようなクエリになります。
+例えばユーザーが10人いると、以下のようなイメージです。</description></item></channel></rss>
